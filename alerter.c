@@ -50,7 +50,7 @@ int networkAlertStub(float celcius) {
     }
 }
 
-void alertInCelcius(float farenheit) {
+void alertInCelcius(float farenheit,int Current_Env) {
     float celcius  = convertfarenheittocelcius(farenheit);
     int returnCode = SelectAlertEnvironment(celcius,Current_Env);
     if (returnCode != 200) {
