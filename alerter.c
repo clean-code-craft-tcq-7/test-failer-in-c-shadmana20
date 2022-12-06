@@ -23,7 +23,7 @@ int networkAlertProduction(float celcius){
   }
 }  
 
-float SelectAlertEnvironment(float celcius, Current_Env)
+float SelectAlertEnvironment(float celcius, int Current_Env)
 {
    float calculated_Value;
    if(Current_Env == INTEGRATION_ENV )
