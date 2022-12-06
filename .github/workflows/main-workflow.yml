@@ -23,4 +23,4 @@ jobs:
     - name: alerter fail
       run: |
         g++ -Wall -Wextra -Werror alerter.c -o alerter.out
-        .github/work ./alerter.out
+        ./alerter.out  
